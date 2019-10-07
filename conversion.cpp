@@ -6,7 +6,7 @@ int main(){
   float temp_f;
   std::cin >> temp_f;
 
-  float temp_c = (32 + temp_f) / (5/9);
+  float temp_c = (temp_f - 32) * 5/9;
   std::cout << "The temperature in degrees celcius is " << temp_c << std::endl;
   return 0;
 }
